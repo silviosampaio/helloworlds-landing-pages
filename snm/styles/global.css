@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+  background-color: #000 !important;
+  overflow-x: hidden;
+  font-family: 'Ubuntu', sans-serif !important;
+  background-image: url(../assets/bg-header.png);
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.ubuntu-light {
+  font-weight: lighter;
+}
+
+.text-gradient {
+  background: linear-gradient(90.41deg, #f05a28 -16.51%, #e40083 130.58%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container-fluid {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.big-title {
+  font-weight: bold;
+  font-size: 52px;
+  letter-spacing: -3px;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.logo-header {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.player-container {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 560px;
+  height: 315px;
+}
+
+.player-container-2 {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 760px;
+  height: 515px;
+}
+
+.btn-default {
+  display: block;
+  padding: 7px 10px;
+  width: 100%;
+  background: linear-gradient(90.41deg, #f05a28 -16.51%, #e40083 130.58%);
+  border-radius: 5px;
+  font-size: 24px;
+  color: #fff;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.btn-default:hover {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+#topics,
+#call-to-action-one,
+#call-to-action-two,
+#course-preview,
+#testimunials {
+  margin-top: 160px !important;
+}
+
+.topic {
+  text-align: center;
+  padding: 50px 25px !important;
+  border-radius: 15px;
+}
+
+.topic:nth-child(2) {
+  background-image: url(../assets/bg-gradient.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.topic > img {
+  width: 140px;
+  height: 140px;
+  display: block;
+  margin: 0 auto;
+}
+
+.topic p {
+  line-height: 20px;
+}
+
+.topic h4 {
+  margin: 25px 0 15px 0;
+}
+
+#call-to-action-one,
+#call-to-action-two {
+  background-image: url(../assets/bg-gradient.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 160px;
+  padding-top: 160px;
+}
+
+.card {
+  background: url(../assets/bg-gradient.png) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 21px;
+  border-radius: 15px !important;
+}
+
+.single-comment img {
+  width: 70px !important;
+  height: 70px !important;
+  border: 2px solid #eb1f6f;
+  padding: 3px;
+}
