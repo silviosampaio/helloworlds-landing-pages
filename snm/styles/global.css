@@ -121,7 +121,7 @@ body {
 #testimunials,
 #plan,
 #faq {
-  margin-top: 160px !important;
+  margin-top: 111px !important;
 }
 
 .topic {
@@ -159,7 +159,7 @@ body {
   background-size: cover;
   background-position: center;
   padding-bottom: 160px;
-  padding-top: 160px;
+  padding-top: 111px;
 }
 
 .card {
@@ -216,7 +216,7 @@ details > summary {
 
 .summary-chevron-up svg {
   rotate: 50%;
-} 
+}
 
 details[open] > summary > .summary-chevron-up > svg {
   transform: rotate(180deg);
